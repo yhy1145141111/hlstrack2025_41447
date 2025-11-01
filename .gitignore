@@ -1,0 +1,82 @@
+# --- 通用编译产物 ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+*.d
+*.dep
+*.pch
+
+# --- 日志/临时 ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# --- VSCode / IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- CMake / Make / 构建输出 ---
+build/
+_build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+
+# --- Vitis/Vivado HLS / Vivado 工程产物 ---
+# Vitis HLS
+.vitis_hls.log
+solution*/    # 典型 HLS solution 目录（按你项目调整）
+syn/
+impl/
+out/
+*.rpt
+*.tcl.history
+
+# Vivado / IP 生成
+*.jou
+*.str
+*.cache/
+*.hw/
+*.ip_user_files/
+*.ip_user/
+*.sim/
+*.runs/
+*.gen/
+*.xdc~
+*.xpr.user
+*.xpr
+*.bit
+*.bin
+*.mcs
+*.coe
+*.ltx
+*.ooc/
+
+# Xilinx 工具工作目录
+.Xil/
+.Xilinx/
+
+# --- 测试数据/临时大文件（如需 LFS 替换为 LFS 规则） ---
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bin
+*.pt
+*.npy
+
+# --- 你不想进仓库的本地脚本/私密配置 ---
+local_*.sh
+.env
+secrets_*.txt
