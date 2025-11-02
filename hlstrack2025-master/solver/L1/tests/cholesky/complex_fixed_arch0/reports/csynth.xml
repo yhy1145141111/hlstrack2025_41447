@@ -19,14 +19,14 @@
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
-            <Best-caseLatency>131</Best-caseLatency>
-            <Average-caseLatency>197</Average-caseLatency>
-            <Worst-caseLatency>227</Worst-caseLatency>
-            <Best-caseRealTimeLatency>0.917 us</Best-caseRealTimeLatency>
-            <Average-caseRealTimeLatency>1.379 us</Average-caseRealTimeLatency>
-            <Worst-caseRealTimeLatency>1.589 us</Worst-caseRealTimeLatency>
-            <Interval-min>132</Interval-min>
-            <Interval-max>228</Interval-max>
+            <Best-caseLatency>130</Best-caseLatency>
+            <Average-caseLatency>130</Average-caseLatency>
+            <Worst-caseLatency>130</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.910 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.910 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.910 us</Worst-caseRealTimeLatency>
+            <Interval-min>131</Interval-min>
+            <Interval-max>131</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfViolations>
             <IssueType>-</IssueType>
@@ -36,9 +36,9 @@
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
-            <DSP>28</DSP>
-            <FF>5030</FF>
-            <LUT>6185</LUT>
+            <DSP>41</DSP>
+            <FF>5793</FF>
+            <LUT>6137</LUT>
             <BRAM_18K>0</BRAM_18K>
             <URAM>0</URAM>
         </Resources>
@@ -212,51 +212,36 @@
                     <ID>22</ID>
                     <InstancesList>
                         <Instance>
-                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_3_fu_334</InstName>
-                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_3</ModuleName>
-                            <IsCompInst>true</IsCompInst>
-                            <ID>334</ID>
-                            <BindInstances>icmp_ln120_fu_277_p2 add_ln120_fu_283_p2 icmp_ln121_fu_300_p2 select_ln120_fu_306_p3 add_ln120_1_fu_314_p2 select_ln120_1_fu_320_p3 add_ln121_fu_417_p2</BindInstances>
-                        </Instance>
-                        <Instance>
-                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_fu_355</InstName>
-                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel</ModuleName>
-                            <IsCompInst>true</IsCompInst>
-                            <ID>355</ID>
-                            <BindInstances>icmp_ln168_fu_189_p2 add_ln168_fu_195_p2 icmp_ln169_fu_212_p2 select_ln168_fu_218_p3 add_ln168_1_fu_226_p2 select_ln168_1_fu_232_p3 icmp_ln184_fu_262_p2 sparsemux_7_2_17_1_1_U76 sparsemux_7_2_17_1_1_U77 sparsemux_7_2_17_1_1_U78 and_ln55_fu_338_p2 d_fu_348_p2 icmp_ln187_fu_354_p2 icmp_ln188_fu_240_p2 select_ln188_fu_358_p3 select_ln188_1_fu_363_p3 icmp_ln188_1_fu_368_p2 r_fu_373_p3 select_ln189_fu_381_p3 select_ln189_1_fu_386_p3 im_fu_391_p3 and_ln55_1_fu_421_p2 rr_fu_431_p2 sub_ln191_fu_437_p2 and_ln55_2_fu_465_p2 ii_fu_475_p2 xor_ln184_fu_490_p2 and_ln187_fu_495_p2 sparsemux_7_2_32_1_1_x0_U79 add_ln169_fu_246_p2</BindInstances>
-                        </Instance>
-                        <Instance>
-                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_4_fu_372</InstName>
-                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_4</ModuleName>
-                            <IsCompInst>true</IsCompInst>
-                            <ID>372</ID>
-                            <BindInstances>icmp_ln135_fu_174_p2 add_ln135_fu_180_p2 icmp_ln137_fu_186_p2 lr_fu_208_p4 lr_fu_208_p6 sparsemux_7_2_32_1_1_U19 li_fu_244_p4 li_fu_244_p6 sparsemux_7_2_32_1_1_U20 add_ln139_fu_279_p2 diag_r_1_fu_296_p2</BindInstances>
-                        </Instance>
-                        <Instance>
-                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2_fu_388</InstName>
-                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2</ModuleName>
-                            <IsCompInst>true</IsCompInst>
-                            <ID>388</ID>
-                            <BindInstances>icmp_ln154_fu_206_p2 icmp_ln156_fu_230_p2 add_ln156_fu_236_p2 icmp_ln64_fu_242_p2 select_ln64_fu_248_p3 select_ln64_1_fu_256_p3 ar_fu_264_p3 select_ln69_fu_272_p3 select_ln69_1_fu_280_p3 ai_fu_288_p3 sparsemux_7_2_32_1_1_U38 sparsemux_7_2_32_1_1_U39 add_ln63_fu_361_p2 sub_ln64_fu_375_p2 tmp2_re_2_fu_395_p2 tmp2_im_2_fu_400_p2</BindInstances>
-                        </Instance>
-                        <Instance>
-                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1_fu_407</InstName>
+                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1_fu_118</InstName>
                             <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1</ModuleName>
                             <IsCompInst>true</IsCompInst>
-                            <ID>407</ID>
-                            <BindInstances>icmp_ln156_fu_212_p2 add_ln156_fu_218_p2 icmp_ln64_fu_224_p2 br_fu_254_p6 bi_fu_282_p6 br_fu_254_p4 sparsemux_7_2_32_1_1_x_U59 bi_fu_282_p4 sparsemux_7_2_32_1_1_x_U60 add_ln63_fu_327_p2 sub_ln64_fu_341_p2 tmp2_re_fu_361_p2 tmp2_im_fu_366_p2</BindInstances>
+                            <ID>118</ID>
+                            <BindInstances>icmp_ln138_fu_238_p2 add_ln138_fu_244_p2 icmp_ln140_fu_261_p2 select_ln138_fu_267_p3 add_ln138_1_fu_275_p2 select_ln138_1_fu_281_p3 add_ln140_fu_363_p2</BindInstances>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2_fu_136</InstName>
+                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>136</ID>
+                            <BindInstances>icmp_ln260_fu_621_p2 indvars_iv_next3389_fu_898_p2 icmp_ln161_fu_627_p2 acc_r_full_3_fu_649_p3 acc_i_full_3_fu_661_p3 icmp_ln161_1_fu_681_p2 select_ln161_fu_687_p3 select_ln161_1_fu_703_p3 acc_r_full_4_fu_719_p3 acc_i_full_4_fu_731_p3 sparsemux_7_2_16_1_1_U24 sparsemux_7_2_16_1_1_U25 sparsemux_7_2_16_1_1_U26 sparsemux_7_2_16_1_1_U27 cmp1301585_fu_907_p2 icmp_ln192_fu_843_p2 b_r_3_fu_849_p3 li_fu_857_p3 b_i_fu_913_p2 mul_32s_32s_48_3_1_U17 mul_32s_32s_48_3_1_U18 add_ln210_fu_1235_p2 sub_ln193_1_fu_1091_p2 mul_32s_32s_48_3_1_U19 mul_32s_32s_48_3_1_U20 add_ln210_1_fu_1249_p2 tile_diag_1_fu_1263_p2 b_r_fu_941_p3 p_0_0_01290_116153450_fu_1096_p3 tile_diag_2_fu_1284_p3 diag_r_1_fu_1289_p2 add_i_i913_fu_955_p2 add_i_i913_11671_fu_1123_p2 sparsemux_7_2_32_1_1_U28 sparsemux_7_2_32_1_1_U29 mul_32s_32s_48_3_1_U17 mul_32s_32s_48_3_1_U18 add_ln68_fu_1005_p2 mul_33s_33s_48_3_1_U22 pr_fu_1295_p2 sparsemux_7_2_32_1_1_U30 sparsemux_7_2_32_1_1_U31 mul_32s_32s_48_3_1_U19 mul_32s_32s_48_3_1_U17 add_ln68_1_fu_1170_p2 mul_33s_33s_48_3_1_U22 sub_ln70_3_fu_1334_p2 sumr_2_fu_1339_p3 sumi_2_fu_1440_p3 icmp_ln239_3_fu_1345_p2 select_ln239_fu_1446_p3 acc_r_full_7_fu_1453_p2 icmp_ln239_fu_1458_p2 select_ln240_fu_1649_p3 acc_i_full_7_fu_1656_p2 icmp_ln240_fu_1661_p2 mul_32s_32s_48_3_1_U21 mul_32s_32s_48_3_1_U20 add_ln68_2_fu_1186_p2 mul_33s_33s_48_3_1_U23 pr_2_fu_1350_p2 mul_32s_32s_48_3_1_U18 mul_32s_32s_48_3_1_U19 add_ln68_3_fu_1229_p2 mul_33s_33s_48_3_1_U22 sub_ln70_6_fu_1503_p2 sumr_5_fu_1700_p3 sumi_5_fu_1817_p3 acc_r_full_8_fu_1705_p2 acc_i_full_8_fu_1822_p2 diag_r_2_fu_1380_p3 ret_code_1_fu_1388_p3 icmp_ln251_fu_1721_p2 ctlz_32_32_1_1_U32 sub_ln251_fu_1412_p2 add_ln251_fu_1511_p2 icmp_ln251_1_fu_1531_p2 add_ln251_1_fu_1418_p2 lshr_ln251_2_fu_1540_p2 and_ln251_3_fu_1550_p2 icmp_ln251_2_fu_1555_p2 phi_ln251_fu_1561_p2 xor_ln251_2_fu_1575_p2 bitselect_1ns_32ns_32s_1_1_1_U33 and_ln251_fu_1588_p2 or_ln251_fu_1594_p2 icmp_ln251_3_fu_1603_p2 add_ln251_2_fu_1609_p2 lshr_ln251_fu_1623_p2 sub_ln251_1_fu_1629_p2 shl_ln251_fu_1643_p2 cond46_i_i_fu_1726_p3 add_ln251_3_fu_1734_p2 select_ln251_fu_1762_p3 sub_ln251_2_fu_1770_p2 add_ln251_4_fu_1779_p2 x_assign_fu_1809_p3 frsqrt_32ns_32ns_32_15_full_dsp_1_U15 fpext_32ns_64_2_no_dsp_1_U14 sub_ln251_3_fu_1875_p2 select_ln251_1_fu_1881_p3 icmp_ln251_4_fu_1888_p2 sub_ln251_4_fu_1893_p2 icmp_ln251_5_fu_1903_p2 add_ln251_5_fu_1909_p2 sub_ln251_5_fu_1915_p2 select_ln251_2_fu_1921_p3 icmp_ln251_6_fu_1929_p2 icmp_ln251_7_fu_1958_p2 select_ln251_5_fu_1963_p3 ashr_ln251_fu_1973_p2 select_ln251_3_fu_1982_p3 icmp_ln251_8_fu_1949_p2 shl_ln251_1_fu_1990_p2 select_ln251_4_fu_1995_p3 xor_ln251_fu_2002_p2 and_ln251_1_fu_2007_p2 or_ln251_1_fu_2012_p2 xor_ln251_1_fu_2016_p2 and_ln251_2_fu_2022_p2 sparsemux_9_3_32_1_1_U34 mul_32s_31ns_48_3_1_U16 or_ln256_fu_2139_p2 conv_i_i_i408_s_fu_2217_p6 mux_case_1364356_fu_2149_p3 diag_s_2_fu_2155_p3 diag_s_3_fu_2160_p3 icmp_ln260_1_fu_2165_p2 sparsemux_7_2_32_1_1_U35 mul_32s_32s_48_3_1_U17 sparsemux_7_2_32_1_1_U36 mul_32s_32s_48_3_1_U18 mul_32s_32s_48_3_1_U19 mul_32s_32s_48_3_1_U20 icmp_ln268_fu_2170_p2 and_ln268_fu_2175_p2 icmp_ln268_1_fu_1035_p2 icmp_ln268_2_fu_1040_p2 and_ln268_1_fu_1045_p2 and_ln268_2_fu_2181_p2 rr_2_fu_2186_p3 icmp_ln268_3_fu_2193_p2 and_ln268_3_fu_2198_p2 and_ln268_4_fu_2204_p2 sparsemux_7_2_32_1_1_U37 icmp_ln268_4_fu_2237_p2 icmp_ln268_5_fu_2242_p2 and_ln268_5_fu_2247_p2 and_ln268_6_fu_2253_p2 and_ln268_7_fu_2259_p2 ii_2_fu_2264_p3 rr_3_fu_2271_p3 and_ln268_8_fu_2278_p2 ii_3_fu_2283_p3 rr_4_fu_2290_p3 and_ln268_9_fu_2297_p2 and_ln268_10_fu_2302_p2 sparsemux_7_2_32_1_1_U38 mux_case_1364353_fu_2334_p3 sparsemux_7_2_32_1_1_U39 mux_case_1358042_fu_2361_p3 and_ln268_11_fu_2369_p2 and_ln268_12_fu_2374_p2 sparsemux_7_2_32_1_1_U40 ii_6_fu_2406_p3 sparsemux_7_2_32_1_1_U41 rr_7_fu_2432_p3 add_ln151_fu_2439_p2</BindInstances>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_fu_164</InstName>
+                            <ModuleName>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>164</ID>
+                            <BindInstances>icmp_ln276_fu_189_p2 add_ln276_fu_195_p2 icmp_ln278_fu_212_p2 select_ln276_fu_218_p3 add_ln276_1_fu_226_p2 select_ln276_1_fu_232_p3 icmp_ln294_fu_262_p2 icmp_ln59_fu_240_p2 select_ln59_fu_266_p3 select_ln59_1_fu_271_p3 icmp_ln59_1_fu_276_p2 select_ln59_2_fu_281_p3 and_ln59_fu_311_p2 rr_fu_321_p2 select_ln296_fu_327_p3 select_ln296_1_fu_332_p3 select_ln296_2_fu_337_p3 sub_ln296_fu_345_p2 and_ln59_1_fu_373_p2 ii_fu_383_p2 icmp_ln298_fu_389_p2 sparsemux_7_2_17_1_1_U78 sparsemux_7_2_17_1_1_U79 sparsemux_7_2_17_1_1_U80 and_ln59_2_fu_465_p2 d_fu_475_p2 xor_ln294_fu_490_p2 and_ln298_fu_495_p2 sparsemux_7_2_32_1_1_U81 add_ln278_fu_246_p2</BindInstances>
                         </Instance>
                     </InstancesList>
-                    <BindInstances>mul_32s_32s_48_3_1_U112 add_ln151_fu_679_p2 sparsemux_7_2_16_1_1_U101 sparsemux_7_2_16_1_1_U102 sparsemux_7_2_16_1_1_U103 sparsemux_7_2_16_1_1_U104 diag_r_2_fu_814_p3 icmp_ln144_fu_850_p2 ctlz_32_32_1_1_U105 sub_ln144_fu_838_p2 add_ln144_fu_858_p2 icmp_ln144_1_fu_878_p2 add_ln144_1_fu_844_p2 lshr_ln144_2_fu_887_p2 and_ln144_1_fu_897_p2 icmp_ln144_2_fu_902_p2 phi_ln144_fu_908_p2 xor_ln144_fu_922_p2 bitselect_1ns_32ns_32s_1_1_1_U106 and_ln144_fu_935_p2 or_ln144_fu_941_p2 icmp_ln144_3_fu_950_p2 add_ln144_2_fu_956_p2 lshr_ln144_fu_970_p2 sub_ln144_1_fu_976_p2 shl_ln144_fu_990_p2 cond46_i_i_fu_996_p3 add_ln144_3_fu_1004_p2 select_ln144_fu_1032_p3 sub_ln144_2_fu_1040_p2 add_ln144_4_fu_1049_p2 df_fu_1079_p3 icmp_ln145_fu_1103_p2 icmp_ln145_1_fu_1109_p2 or_ln145_fu_1115_p2 fcmp_32ns_32ns_1_2_no_dsp_1_U97 and_ln145_fu_1121_p2 frsqrt_32ns_32ns_32_15_full_dsp_1_U98 inv_f_fu_1126_p3 fmul_32ns_32ns_32_4_max_dsp_1_U94 fpext_32ns_64_2_no_dsp_1_U95 sub_ln146_fu_1203_p2 select_ln146_fu_1209_p3 icmp_ln146_fu_1216_p2 sub_ln146_1_fu_1221_p2 icmp_ln146_1_fu_1231_p2 add_ln146_fu_1237_p2 sub_ln146_2_fu_1243_p2 select_ln146_1_fu_1249_p3 icmp_ln146_2_fu_1257_p2 icmp_ln146_3_fu_1380_p2 select_ln146_4_fu_1385_p3 ashr_ln146_fu_1395_p2 select_ln146_2_fu_1404_p3 icmp_ln146_4_fu_1277_p2 shl_ln146_fu_1412_p2 select_ln146_3_fu_1417_p3 xor_ln146_fu_1471_p2 and_ln146_fu_1476_p2 or_ln146_fu_1481_p2 xor_ln146_1_fu_1485_p2 and_ln146_1_fu_1491_p2 sparsemux_9_3_32_1_1_U107 fpext_32ns_64_2_no_dsp_1_U96 sub_ln147_fu_1297_p2 select_ln147_fu_1303_p3 icmp_ln147_fu_1310_p2 sub_ln147_1_fu_1315_p2 icmp_ln147_1_fu_1325_p2 add_ln147_fu_1331_p2 sub_ln147_2_fu_1337_p2 select_ln147_1_fu_1343_p3 icmp_ln147_2_fu_1351_p2 icmp_ln147_3_fu_1427_p2 select_ln147_4_fu_1432_p3 ashr_ln147_fu_1442_p2 select_ln147_2_fu_1451_p3 icmp_ln147_4_fu_1371_p2 shl_ln147_fu_1459_p2 select_ln147_3_fu_1464_p3 xor_ln147_fu_1526_p2 and_ln147_fu_1531_p2 or_ln147_fu_1536_p2 xor_ln147_1_fu_1540_p2 and_ln147_1_fu_1546_p2 sparsemux_9_3_32_1_1_U108 icmp_ln151_1_fu_1585_p2 icmp_ln154_fu_1637_p2 select_ln154_fu_1643_p3 sparsemux_7_2_16_1_1_U109 sparsemux_7_2_16_1_1_U110 select_ln154_1_fu_1658_p3 mul_32s_32s_48_3_1_U99 mul_32s_32s_48_3_1_U100 icmp_ln162_fu_1673_p2 grp_fu_503_p2 icmp_ln151_2_fu_1679_p2 icmp_ln162_2_fu_1701_p2 icmp_ln162_4_fu_1706_p2 or_ln162_fu_1726_p2 rr_1_fu_1730_p3 ii_1_fu_1737_p3 ii_2_fu_1743_p3 rr_2_fu_1749_p3 rr_3_fu_1755_p3 mul_32s_32s_48_3_1_U99 mul_32s_32s_48_3_1_U100 grp_fu_503_p2</BindInstances>
                 </Instance>
             </InstancesList>
         </TopModule>
     </RTLDesignHierarchy>
     <ModuleInformation>
         <Module>
-            <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_3</Name>
+            <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1</Name>
             <Loops>
-                <read_in_VITIS_LOOP_121_1/>
+                <read_in_VITIS_LOOP_140_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
@@ -275,8 +260,8 @@
                     <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <read_in_VITIS_LOOP_121_1>
-                        <Name>read_in_VITIS_LOOP_121_1</Name>
+                    <read_in_VITIS_LOOP_140_1>
+                        <Name>read_in_VITIS_LOOP_140_1</Name>
                         <Slack>6.30</Slack>
                         <TripCount>9</TripCount>
                         <Latency>9</Latency>
@@ -285,25 +270,25 @@
                         <PipelineDepth>2</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </read_in_VITIS_LOOP_121_1>
+                    </read_in_VITIS_LOOP_140_1>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:121</SourceLocation>
+                    <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:140</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <read_in_VITIS_LOOP_121_1>
-                            <Name>read_in_VITIS_LOOP_121_1</Name>
+                        <read_in_VITIS_LOOP_140_1>
+                            <Name>read_in_VITIS_LOOP_140_1</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120</SourceLocation>
-                        </read_in_VITIS_LOOP_121_1>
+                            <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138</SourceLocation>
+                        </read_in_VITIS_LOOP_140_1>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <FF>251</FF>
+                    <FF>203</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
                     <LUT>127</LUT>
@@ -321,284 +306,258 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln120_fu_277_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln120" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln120_fu_283_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln120" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln121_fu_300_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:121" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln121" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln120_fu_306_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln120" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln120_1_fu_314_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln120_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln120_1_fu_320_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:120" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln120_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_121_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln121_fu_417_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:121" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln121" VISIBLE="true"/>
-            </BindNodes>
-        </Module>
-        <Module>
-            <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_4</Name>
-            <Loops>
-                <acc_diag/>
-            </Loops>
-            <PerformanceEstimates>
-                <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>7.00</TargetClockPeriod>
-                    <ClockUncertainty>0.70</ClockUncertainty>
-                    <EstimatedClockPeriod>5.745</EstimatedClockPeriod>
-                </SummaryOfTimingAnalysis>
-                <SummaryOfOverallLatency>
-                    <Best-caseLatency>2</Best-caseLatency>
-                    <Average-caseLatency>7</Average-caseLatency>
-                    <Worst-caseLatency>8</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>14.000 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>49.000 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>56.000 ns</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1 ~ 3</PipelineInitiationInterval>
-                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
-                </SummaryOfOverallLatency>
-                <SummaryOfLoopLatency>
-                    <acc_diag>
-                        <Name>acc_diag</Name>
-                        <Slack>6.30</Slack>
-                        <TripCount>
-                            <range>
-                                <min>0</min>
-                                <max>2</max>
-                            </range>
-                        </TripCount>
-                        <Latency>0 ~ 6</Latency>
-                        <AbsoluteTimeLatency>0 ns ~ 42.000 ns</AbsoluteTimeLatency>
-                        <PipelineII>1</PipelineII>
-                        <PipelineDepth>6</PipelineDepth>
-                        <PipelineType>yes</PipelineType>
-                        <InstanceList/>
-                    </acc_diag>
-                </SummaryOfLoopLatency>
-                <SummaryOfViolations>
-                    <IssueType>-</IssueType>
-                    <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:132</SourceLocation>
-                    <SummaryOfLoopViolations>
-                        <acc_diag>
-                            <Name>acc_diag</Name>
-                            <IssueType>-</IssueType>
-                            <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:135</SourceLocation>
-                        </acc_diag>
-                    </SummaryOfLoopViolations>
-                </SummaryOfViolations>
-            </PerformanceEstimates>
-            <AreaEstimates>
-                <Resources>
-                    <FF>302</FF>
-                    <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>~0</UTIL_FF>
-                    <LUT>349</LUT>
-                    <AVAIL_LUT>53200</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
-                    <BRAM_18K>0</BRAM_18K>
-                    <AVAIL_BRAM>280</AVAIL_BRAM>
-                    <UTIL_BRAM>0</UTIL_BRAM>
-                    <DSP>0</DSP>
-                    <AVAIL_DSP>220</AVAIL_DSP>
-                    <UTIL_DSP>0</UTIL_DSP>
-                    <URAM>0</URAM>
-                    <AVAIL_URAM>0</AVAIL_URAM>
-                    <UTIL_URAM>0</UTIL_URAM>
-                </Resources>
-            </AreaEstimates>
-            <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="acc_diag" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln135_fu_174_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:135" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln135" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="acc_diag" OPTYPE="add" PRAGMA="" RTLNAME="add_ln135_fu_180_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:135" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln135" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="acc_diag" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln137_fu_186_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:137" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln137" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="acc_diag" OPTYPE="select" PRAGMA="" RTLNAME="lr_fu_208_p4" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:137" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln137" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="acc_diag" OPTYPE="select" PRAGMA="" RTLNAME="lr_fu_208_p6" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:137" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln137_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="acc_diag" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U19" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:137" STORAGESUBTYPE="" URAM="0" VARIABLE="lr" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="acc_diag" OPTYPE="select" PRAGMA="" RTLNAME="li_fu_244_p4" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln138" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="acc_diag" OPTYPE="select" PRAGMA="" RTLNAME="li_fu_244_p6" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln138_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="acc_diag" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U20" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="li" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="acc_diag" OPTYPE="add" PRAGMA="" RTLNAME="add_ln139_fu_279_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:139" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln139" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="acc_diag" OPTYPE="sub" PRAGMA="" RTLNAME="diag_r_1_fu_296_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:139" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_r_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln138_fu_238_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln138" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln138_fu_244_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln138" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln140_fu_261_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:140" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln140" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln138_fu_267_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln138" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln138_1_fu_275_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln138_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln138_1_fu_281_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:138" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln138_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="read_in_VITIS_LOOP_140_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln140_fu_363_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:140" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln140" VISIBLE="true"/>
             </BindNodes>
         </Module>
         <Module>
             <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2</Name>
             <Loops>
-                <sum_loop/>
+                <col_loop/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>7.00</TargetClockPeriod>
                     <ClockUncertainty>0.70</ClockUncertainty>
-                    <EstimatedClockPeriod>5.745</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.245</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>2</Best-caseLatency>
-                    <Average-caseLatency>7</Average-caseLatency>
-                    <Worst-caseLatency>8</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>14.000 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>49.000 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>56.000 ns</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1 ~ 3</PipelineInitiationInterval>
+                    <Best-caseLatency>100</Best-caseLatency>
+                    <Average-caseLatency>100</Average-caseLatency>
+                    <Worst-caseLatency>100</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.700 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.700 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.700 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>99</PipelineInitiationInterval>
                     <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <sum_loop>
-                        <Name>sum_loop</Name>
+                    <col_loop>
+                        <Name>col_loop</Name>
                         <Slack>6.30</Slack>
-                        <TripCount>
-                            <range>
-                                <min>0</min>
-                                <max>2</max>
-                            </range>
-                        </TripCount>
-                        <Latency>0 ~ 6</Latency>
-                        <AbsoluteTimeLatency>0 ns ~ 42.000 ns</AbsoluteTimeLatency>
-                        <PipelineII>1</PipelineII>
-                        <PipelineDepth>6</PipelineDepth>
+                        <TripCount>3</TripCount>
+                        <Latency>98</Latency>
+                        <AbsoluteTimeLatency>0.686 us</AbsoluteTimeLatency>
+                        <PipelineII>32</PipelineII>
+                        <PipelineDepth>33</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </sum_loop>
+                    </col_loop>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156</SourceLocation>
+                    <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <sum_loop>
-                            <Name>sum_loop</Name>
-                            <IssueType>-</IssueType>
-                            <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156</SourceLocation>
-                        </sum_loop>
+                        <col_loop>
+                            <Name>col_loop</Name>
+                            <IssueType>II Violation</IssueType>
+                            <ViolationType>Memory Dependency</ViolationType>
+                            <IterationDistance>1</IterationDistance>
+                            <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260</SourceLocation>
+                        </col_loop>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <FF>526</FF>
+                    <DSP>41</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>18</UTIL_DSP>
+                    <FF>5440</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>~0</UTIL_FF>
-                    <LUT>527</LUT>
+                    <UTIL_FF>5</UTIL_FF>
+                    <LUT>5550</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
+                    <UTIL_LUT>10</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>280</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
-                    <DSP>0</DSP>
-                    <AVAIL_DSP>220</AVAIL_DSP>
-                    <UTIL_DSP>0</UTIL_DSP>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln154_fu_206_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln154" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="sum_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln156_fu_230_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln156" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln156_fu_236_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln156" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="sum_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln64_fu_242_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln64" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln64_fu_248_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln64" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln64_1_fu_256_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln64_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="ar_fu_264_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="ar" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln69_fu_272_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln69" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln69_1_fu_280_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln69_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="ai_fu_288_p3" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="ai" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="sum_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U38" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="br" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="sum_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U39" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="bi" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln63_fu_361_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:63" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln63" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln64_fu_375_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:64" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln64" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="tmp2_re_2_fu_395_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:223" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp2_re_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="tmp2_im_2_fu_400_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:224" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp2_im_2" VISIBLE="true"/>
-            </BindNodes>
-        </Module>
-        <Module>
-            <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1</Name>
-            <Loops>
-                <sum_loop/>
-            </Loops>
-            <PerformanceEstimates>
-                <SummaryOfTimingAnalysis>
-                    <TargetClockPeriod>7.00</TargetClockPeriod>
-                    <ClockUncertainty>0.70</ClockUncertainty>
-                    <EstimatedClockPeriod>5.745</EstimatedClockPeriod>
-                </SummaryOfTimingAnalysis>
-                <SummaryOfOverallLatency>
-                    <Best-caseLatency>2</Best-caseLatency>
-                    <Average-caseLatency>7</Average-caseLatency>
-                    <Worst-caseLatency>8</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>14.000 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>49.000 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>56.000 ns</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1 ~ 3</PipelineInitiationInterval>
-                    <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
-                </SummaryOfOverallLatency>
-                <SummaryOfLoopLatency>
-                    <sum_loop>
-                        <Name>sum_loop</Name>
-                        <Slack>6.30</Slack>
-                        <TripCount>
-                            <range>
-                                <min>0</min>
-                                <max>2</max>
-                            </range>
-                        </TripCount>
-                        <Latency>0 ~ 6</Latency>
-                        <AbsoluteTimeLatency>0 ns ~ 42.000 ns</AbsoluteTimeLatency>
-                        <PipelineII>1</PipelineII>
-                        <PipelineDepth>6</PipelineDepth>
-                        <PipelineType>yes</PipelineType>
-                        <InstanceList/>
-                    </sum_loop>
-                </SummaryOfLoopLatency>
-                <SummaryOfViolations>
-                    <IssueType>-</IssueType>
-                    <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156</SourceLocation>
-                    <SummaryOfLoopViolations>
-                        <sum_loop>
-                            <Name>sum_loop</Name>
-                            <IssueType>-</IssueType>
-                            <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156</SourceLocation>
-                        </sum_loop>
-                    </SummaryOfLoopViolations>
-                </SummaryOfViolations>
-            </PerformanceEstimates>
-            <AreaEstimates>
-                <Resources>
-                    <FF>526</FF>
-                    <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>~0</UTIL_FF>
-                    <LUT>452</LUT>
-                    <AVAIL_LUT>53200</AVAIL_LUT>
-                    <UTIL_LUT>~0</UTIL_LUT>
-                    <BRAM_18K>0</BRAM_18K>
-                    <AVAIL_BRAM>280</AVAIL_BRAM>
-                    <UTIL_BRAM>0</UTIL_BRAM>
-                    <DSP>0</DSP>
-                    <AVAIL_DSP>220</AVAIL_DSP>
-                    <UTIL_DSP>0</UTIL_DSP>
-                    <URAM>0</URAM>
-                    <AVAIL_URAM>0</AVAIL_URAM>
-                    <UTIL_URAM>0</UTIL_URAM>
-                </Resources>
-            </AreaEstimates>
-            <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="sum_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln156_fu_212_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln156" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln156_fu_218_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:156" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln156" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="sum_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln64_fu_224_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln64" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="br_fu_254_p6" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="ar" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="bi_fu_282_p6" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="ai" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="br_fu_254_p4" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln64" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="sum_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_x_U59" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:64" STORAGESUBTYPE="" URAM="0" VARIABLE="br" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="sum_loop" OPTYPE="select" PRAGMA="" RTLNAME="bi_fu_282_p4" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln69" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="sum_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_x_U60" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:69" STORAGESUBTYPE="" URAM="0" VARIABLE="bi" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln63_fu_327_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:63" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln63" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln64_fu_341_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:64" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln64" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="tmp2_re_fu_361_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:223" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp2_re" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="sum_loop" OPTYPE="sub" PRAGMA="" RTLNAME="tmp2_im_fu_366_p2" SOURCE="D:/xlinx/Vitis/2024.2/common/technology/autopilot\hls_x_complex.h:224" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp2_im" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln260_fu_621_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln260" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="indvars_iv_next3389_fu_898_p2" SOURCE="" STORAGESUBTYPE="" URAM="0" VARIABLE="indvars_iv_next3389" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln161_fu_627_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln161" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="acc_r_full_3_fu_649_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_r_full_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="acc_i_full_3_fu_661_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_i_full_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln161_1_fu_681_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln161_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln161_fu_687_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln161" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln161_1_fu_703_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln161_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="acc_r_full_4_fu_719_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_r_full_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="acc_i_full_4_fu_731_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_i_full_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U24" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:177" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U25" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:177" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U26" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:177" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U27" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:177" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="cmp1301585_fu_907_p2" SOURCE="" STORAGESUBTYPE="" URAM="0" VARIABLE="cmp1301585" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln192_fu_843_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:192" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln192" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="b_r_3_fu_849_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:192" STORAGESUBTYPE="" URAM="0" VARIABLE="b_r_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="li_fu_857_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:193" STORAGESUBTYPE="" URAM="0" VARIABLE="li" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="b_i_fu_913_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:193" STORAGESUBTYPE="" URAM="0" VARIABLE="b_i" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U17" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln210" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U18" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln210_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln210_fu_1235_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln210" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln193_1_fu_1091_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:193" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln193_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U19" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln210_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U20" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln210_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln210_1_fu_1249_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln210_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="tile_diag_1_fu_1263_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:210" STORAGESUBTYPE="" URAM="0" VARIABLE="tile_diag_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="b_r_fu_941_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="b_r" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="p_0_0_01290_116153450_fu_1096_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="p_0_0_01290_116153450" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="tile_diag_2_fu_1284_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="tile_diag_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="diag_r_1_fu_1289_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:213" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_r_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_i_i913_fu_955_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:193" STORAGESUBTYPE="" URAM="0" VARIABLE="add_i_i913" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_i_i913_11671_fu_1123_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="add_i_i913_11671" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U28" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="a_r" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U29" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="a_i" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U17" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:66" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln66" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U18" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln67" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln68_fu_1005_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln68" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_33s_33s_48_3_1_U22" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln68" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="pr_fu_1295_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:69" STORAGESUBTYPE="" URAM="0" VARIABLE="pr" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U30" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="a_r_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U31" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="a_i_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U19" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:66" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln66_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U17" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln67_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln68_1_fu_1170_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln68_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_33s_33s_48_3_1_U22" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln68_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln70_3_fu_1334_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:70" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln70_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="sumr_2_fu_1339_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="sumr_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="sumi_2_fu_1440_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="sumi_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln239_3_fu_1345_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln239_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln239_fu_1446_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln239" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="acc_r_full_7_fu_1453_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_r_full_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln239_fu_1458_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln239" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln240_fu_1649_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:240" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln240" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="acc_i_full_7_fu_1656_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:240" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_i_full_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln240_fu_1661_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:240" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln240" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U21" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:66" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln66_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U20" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln67_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln68_2_fu_1186_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln68_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_33s_33s_48_3_1_U23" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln68_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="pr_2_fu_1350_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:69" STORAGESUBTYPE="" URAM="0" VARIABLE="pr_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U18" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:66" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln66_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U19" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln67_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln68_3_fu_1229_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln68_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_33s_33s_48_3_1_U22" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:68" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln68_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln70_6_fu_1503_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:70" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln70_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="sumr_5_fu_1700_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="sumr_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="sumi_5_fu_1817_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="sumi_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="acc_r_full_8_fu_1705_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_r_full_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="acc_i_full_8_fu_1822_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:240" STORAGESUBTYPE="" URAM="0" VARIABLE="acc_i_full_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="diag_r_2_fu_1380_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:246" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_r_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ret_code_1_fu_1388_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:246" STORAGESUBTYPE="" URAM="0" VARIABLE="ret_code_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln251_fu_1721_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ctlz" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="ctlz" PRAGMA="" RTLNAME="ctlz_32_32_1_1_U32" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_fu_1412_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_fu_1511_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln251_1_fu_1531_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_1_fu_1418_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln251_2_fu_1540_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln251_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln251_3_fu_1550_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln251_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln251_2_fu_1555_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="phi_ln251_fu_1561_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="phi_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln251_2_fu_1575_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln251_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op bitselect" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="bitselect" PRAGMA="" RTLNAME="bitselect_1ns_32ns_32s_1_1_1_U33" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln251_fu_1588_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln251_fu_1594_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln251_3_fu_1603_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_2_fu_1609_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln251_fu_1623_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_1_fu_1629_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln251_fu_1643_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="cond46_i_i_fu_1726_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="cond46_i_i" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_3_fu_1734_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_fu_1762_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_2_fu_1770_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_4_fu_1779_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="x_assign_fu_1809_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="x_assign" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op frsqrt" DSP="9" ID="" IMPL="fulldsp" LATENCY="14" LOOP="col_loop" OPTYPE="frsqrt" PRAGMA="" RTLNAME="frsqrt_32ns_32ns_32_15_full_dsp_1_U15" SOURCE="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib\hlsmath\src\c++\rsqrtfloat.cpp:17" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fpext" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="col_loop" OPTYPE="fpext" PRAGMA="" RTLNAME="fpext_32ns_64_2_no_dsp_1_U14" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="pf" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_3_fu_1875_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_1_fu_1881_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln251_4_fu_1888_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_4_fu_1893_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln251_5_fu_1903_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln251_5_fu_1909_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln251_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln251_5_fu_1915_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln251_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_2_fu_1921_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln251_6_fu_1929_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln251_7_fu_1958_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_5_fu_1963_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ashr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="ashr" PRAGMA="" RTLNAME="ashr_ln251_fu_1973_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="ashr_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_3_fu_1982_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln251_8_fu_1949_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln251_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln251_1_fu_1990_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln251_4_fu_1995_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln251_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln251_fu_2002_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln251" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln251_1_fu_2007_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln251_1_fu_2012_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln251_1_fu_2016_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln251_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln251_2_fu_2022_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln251_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_32_1_1_U34" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:251" STORAGESUBTYPE="" URAM="0" VARIABLE="inv_diag" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_31ns_48_3_1_U16" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:255" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln255" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln256_fu_2139_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln256" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="conv_i_i_i408_s_fu_2217_p6" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_s_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="mux_case_1364356_fu_2149_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="mux_case_1364356" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="diag_s_2_fu_2155_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_s_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="diag_s_3_fu_2160_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_s_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln260_1_fu_2165_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln260_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U35" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U17" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln266" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="compactencoding_dontcare" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U36" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:267" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U18" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:267" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln267" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U19" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln266_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U20" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:267" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln267_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln268_fu_2170_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_fu_2175_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln268_1_fu_1035_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln268_2_fu_1040_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_1_fu_1045_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_2_fu_2181_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_2_fu_2186_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln268_3_fu_2193_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_3_fu_2198_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_4_fu_2204_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U37" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="conv_i_i_i408_s" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln268_4_fu_2237_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln268_5_fu_2242_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln268_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_5_fu_2247_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_6_fu_2253_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_7_fu_2259_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ii_2_fu_2264_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_3_fu_2271_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_8_fu_2278_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_8" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ii_3_fu_2283_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_4_fu_2290_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_9_fu_2297_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_9" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_10_fu_2302_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U38" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:267" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="mux_case_1364353_fu_2334_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="mux_case_1364353" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U39" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="mux_case_1358042_fu_2361_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="mux_case_1358042" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_11_fu_2369_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln268_12_fu_2374_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln268_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U40" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:267" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ii_6_fu_2406_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U41" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:266" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_7_fu_2432_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:268" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln151_fu_2439_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln151" VISIBLE="true"/>
             </BindNodes>
         </Module>
         <Module>
             <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel</Name>
             <Loops>
-                <write_out_VITIS_LOOP_169_2/>
+                <write_out_VITIS_LOOP_278_4/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
@@ -617,8 +576,8 @@
                     <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <write_out_VITIS_LOOP_169_2>
-                        <Name>write_out_VITIS_LOOP_169_2</Name>
+                    <write_out_VITIS_LOOP_278_4>
+                        <Name>write_out_VITIS_LOOP_278_4</Name>
                         <Slack>6.30</Slack>
                         <TripCount>9</TripCount>
                         <Latency>11</Latency>
@@ -627,19 +586,19 @@
                         <PipelineDepth>4</PipelineDepth>
                         <PipelineType>yes</PipelineType>
                         <InstanceList/>
-                    </write_out_VITIS_LOOP_169_2>
+                    </write_out_VITIS_LOOP_278_4>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:169</SourceLocation>
+                    <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:278</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <write_out_VITIS_LOOP_169_2>
-                            <Name>write_out_VITIS_LOOP_169_2</Name>
+                        <write_out_VITIS_LOOP_278_4>
+                            <Name>write_out_VITIS_LOOP_278_4</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168</SourceLocation>
-                        </write_out_VITIS_LOOP_169_2>
+                            <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276</SourceLocation>
+                        </write_out_VITIS_LOOP_278_4>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
@@ -663,43 +622,40 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln168_fu_189_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln168" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln168_fu_195_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln168" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln169_fu_212_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:169" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln169" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln168_fu_218_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln168" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln168_1_fu_226_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln168_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln168_1_fu_232_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:168" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln168_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln184_fu_262_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:184" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln184" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U76" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U77" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_7" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U78" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_8" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="and" PRAGMA="" RTLNAME="and_ln55_fu_338_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln55" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="d_fu_348_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="d" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln187_fu_354_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:187" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln187" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln188_fu_240_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:188" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln188" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln188_fu_358_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:188" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln188" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln188_1_fu_363_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:188" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln188_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln188_1_fu_368_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:188" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln188_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="r_fu_373_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:188" STORAGESUBTYPE="" URAM="0" VARIABLE="r" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln189_fu_381_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln189" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="select_ln189_1_fu_386_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln189_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="select" PRAGMA="" RTLNAME="im_fu_391_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:189" STORAGESUBTYPE="" URAM="0" VARIABLE="im" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="and" PRAGMA="" RTLNAME="and_ln55_1_fu_421_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln55_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="rr_fu_431_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="rr" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln191_fu_437_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:191" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln191" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="and" PRAGMA="" RTLNAME="and_ln55_2_fu_465_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln55_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="ii_fu_475_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="ii" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln184_fu_490_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:184" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln184" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="and" PRAGMA="" RTLNAME="and_ln187_fu_495_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:187" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln187" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_x0_U79" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:55" STORAGESUBTYPE="" URAM="0" VARIABLE="outz" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_169_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln169_fu_246_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:169" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln169" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln276_fu_189_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln276" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln276_fu_195_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln276" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln278_fu_212_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:278" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln278" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln276_fu_218_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln276" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln276_1_fu_226_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln276_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln276_1_fu_232_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:276" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln276_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln294_fu_262_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:294" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln294" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln59_fu_240_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln59" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln59_fu_266_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln59" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln59_1_fu_271_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln59_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln59_1_fu_276_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln59_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln59_2_fu_281_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln59_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="and" PRAGMA="" RTLNAME="and_ln59_fu_311_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln59" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="rr_fu_321_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="rr" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln296_fu_327_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln296" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln296_1_fu_332_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln296_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="select" PRAGMA="" RTLNAME="select_ln296_2_fu_337_p3" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln296_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln296_fu_345_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln296" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="and" PRAGMA="" RTLNAME="and_ln59_1_fu_373_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln59_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="ii_fu_383_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="ii" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln298_fu_389_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:298" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln298" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U78" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U79" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_17_1_1_U80" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="and" PRAGMA="" RTLNAME="and_ln59_2_fu_465_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln59_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="d_fu_475_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="d" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln294_fu_490_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:294" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln294" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="and" PRAGMA="" RTLNAME="and_ln298_fu_495_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:298" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln298" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_32_1_1_U81" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="outz" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="write_out_VITIS_LOOP_278_4" OPTYPE="add" PRAGMA="" RTLNAME="add_ln278_fu_246_p2" SOURCE="K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:278" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln278" VISIBLE="true"/>
             </BindNodes>
         </Module>
         <Module>
             <Name>cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_s</Name>
-            <Loops>
-                <col_loop/>
-            </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>7.00</TargetClockPeriod>
@@ -707,60 +663,30 @@
                     <EstimatedClockPeriod>6.245</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>130</Best-caseLatency>
-                    <Average-caseLatency>196</Average-caseLatency>
-                    <Worst-caseLatency>226</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>0.910 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>1.372 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>1.582 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>130 ~ 226</PipelineInitiationInterval>
+                    <Best-caseLatency>129</Best-caseLatency>
+                    <Average-caseLatency>129</Average-caseLatency>
+                    <Worst-caseLatency>129</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.903 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.903 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.903 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>129</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
-                <SummaryOfLoopLatency>
-                    <col_loop>
-                        <Name>col_loop</Name>
-                        <Slack>6.30</Slack>
-                        <TripCount>3</TripCount>
-                        <Latency>102 ~ 198</Latency>
-                        <AbsoluteTimeLatency>0.714 us ~ 1.386 us</AbsoluteTimeLatency>
-                        <IterationLatency>
-                            <range>
-                                <min>34</min>
-                                <max>66</max>
-                            </range>
-                        </IterationLatency>
-                        <PipelineDepth>34 ~ 66</PipelineDepth>
-                        <PipelineType>no</PipelineType>
-                        <InstanceList>
-                            <Instance>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_4_fu_372</Instance>
-                            <Instance>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_2_fu_388</Instance>
-                            <Instance>grp_cholesky_false_3_x_complex_x_complex_CholeskyTraits_x_complex_x_complex_Pipel_1_fu_407</Instance>
-                        </InstanceList>
-                    </col_loop>
-                </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151</SourceLocation>
-                    <SummaryOfLoopViolations>
-                        <col_loop>
-                            <Name>col_loop</Name>
-                            <IssueType>-</IssueType>
-                            <ViolationType>-</ViolationType>
-                            <SourceLocation>H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151</SourceLocation>
-                        </col_loop>
-                    </SummaryOfLoopViolations>
+                    <SourceLocation>K:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:260</SourceLocation>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <DSP>28</DSP>
+                    <DSP>41</DSP>
                     <AVAIL_DSP>220</AVAIL_DSP>
-                    <UTIL_DSP>12</UTIL_DSP>
-                    <FF>5027</FF>
+                    <UTIL_DSP>18</UTIL_DSP>
+                    <FF>5790</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>4</UTIL_FF>
-                    <LUT>6171</LUT>
+                    <UTIL_FF>5</UTIL_FF>
+                    <LUT>6123</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>11</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -771,116 +697,6 @@
                     <UTIL_URAM>0</UTIL_URAM>
                 </Resources>
             </AreaEstimates>
-            <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U112" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln151" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln151_fu_679_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln151" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U101" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:132" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U102" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:132" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U103" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:132" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U104" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:132" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="diag_r_2_fu_814_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:141" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_r_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln144_fu_850_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ctlz" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="ctlz" PRAGMA="" RTLNAME="ctlz_32_32_1_1_U105" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln144_fu_838_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln144" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_fu_858_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln144_1_fu_878_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln144_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_1_fu_844_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln144_2_fu_887_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln144_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln144_1_fu_897_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln144_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln144_2_fu_902_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln144_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="phi_ln144_fu_908_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="phi_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln144_fu_922_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op bitselect" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="bitselect" PRAGMA="" RTLNAME="bitselect_1ns_32ns_32s_1_1_1_U106" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_17" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln144_fu_935_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln144_fu_941_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln144_3_fu_950_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln144_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_2_fu_956_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln144_fu_970_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln144_1_fu_976_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln144_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln144_fu_990_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="cond46_i_i_fu_996_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="cond46_i_i" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_3_fu_1004_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144_3" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln144_fu_1032_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln144" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln144_2_fu_1040_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln144_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln144_4_fu_1049_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln144_4" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="df_fu_1079_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:144" STORAGESUBTYPE="" URAM="0" VARIABLE="df" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln145_fu_1103_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln145" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln145_1_fu_1109_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln145_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln145_fu_1115_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln145" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fcmp" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="col_loop" OPTYPE="fcmp" PRAGMA="" RTLNAME="fcmp_32ns_32ns_1_2_no_dsp_1_U97" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_5" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln145_fu_1121_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln145" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op frsqrt" DSP="9" ID="" IMPL="fulldsp" LATENCY="14" LOOP="col_loop" OPTYPE="frsqrt" PRAGMA="" RTLNAME="frsqrt_32ns_32ns_32_15_full_dsp_1_U98" SOURCE="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib\hlsmath\src\c++\rsqrtfloat.cpp:17" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_6" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="inv_f_fu_1126_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:145" STORAGESUBTYPE="" URAM="0" VARIABLE="inv_f" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fmul" DSP="3" ID="" IMPL="maxdsp" LATENCY="3" LOOP="col_loop" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U94" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="mul" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fpext" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="col_loop" OPTYPE="fpext" PRAGMA="" RTLNAME="fpext_32ns_64_2_no_dsp_1_U95" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="pf" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln146_fu_1203_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln146" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln146_fu_1209_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln146_fu_1216_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln146_1_fu_1221_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln146_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln146_1_fu_1231_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln146_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln146_fu_1237_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln146" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln146_2_fu_1243_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln146_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln146_1_fu_1249_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln146_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln146_2_fu_1257_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln146_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln146_3_fu_1380_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln146_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln146_4_fu_1385_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln146_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ashr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="ashr" PRAGMA="" RTLNAME="ashr_ln146_fu_1395_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="ashr_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln146_2_fu_1404_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln146_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln146_4_fu_1277_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln146_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln146_fu_1412_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln146_3_fu_1417_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln146_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln146_fu_1471_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln146_fu_1476_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln146_fu_1481_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln146" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln146_1_fu_1485_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln146_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln146_1_fu_1491_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln146_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_32_1_1_U107" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:146" STORAGESUBTYPE="" URAM="0" VARIABLE="diag_s" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fpext" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="col_loop" OPTYPE="fpext" PRAGMA="" RTLNAME="fpext_32ns_64_2_no_dsp_1_U96" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="pf_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln147_fu_1297_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln147" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln147_fu_1303_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln147_fu_1310_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln147_1_fu_1315_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln147_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln147_1_fu_1325_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln147_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="add_ln147_fu_1331_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln147" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln147_2_fu_1337_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln147_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln147_1_fu_1343_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln147_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln147_2_fu_1351_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln147_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln147_3_fu_1427_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln147_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln147_4_fu_1432_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln147_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op ashr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="ashr" PRAGMA="" RTLNAME="ashr_ln147_fu_1442_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="ashr_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln147_2_fu_1451_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln147_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln147_4_fu_1371_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln147_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="col_loop" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln147_fu_1459_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln147_3_fu_1464_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln147_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln147_fu_1526_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln147_fu_1531_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln147_fu_1536_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln147" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln147_1_fu_1540_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln147_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="and" PRAGMA="" RTLNAME="and_ln147_1_fu_1546_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln147_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_32_1_1_U108" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:147" STORAGESUBTYPE="" URAM="0" VARIABLE="inv_diag" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln151_1_fu_1585_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln151_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln154_fu_1637_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln154" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln154_fu_1643_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln154" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U109" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_9" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="col_loop" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_16_1_1_U110" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp_10" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="select_ln154_1_fu_1658_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:154" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln154_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U99" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:160" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln160" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U100" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln161" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln162_fu_1673_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln162" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_503_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln151_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln151_2_fu_1679_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:151" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln151_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln162_2_fu_1701_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln162_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln162_4_fu_1706_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln162_4" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="col_loop" OPTYPE="or" PRAGMA="" RTLNAME="or_ln162_fu_1726_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln162" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_1_fu_1730_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ii_1_fu_1737_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="ii_2_fu_1743_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="ii_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_2_fu_1749_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_2" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="col_loop" OPTYPE="select" PRAGMA="" RTLNAME="rr_3_fu_1755_p3" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:162" STORAGESUBTYPE="" URAM="0" VARIABLE="rr_3" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U99" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:160" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln160_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="2" LOOP="col_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_48_3_1_U100" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:161" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln161_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="col_loop" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_503_p2" SOURCE="H:/solver/L1/tests/cholesky/complex_fixed_arch0/../../../../L1/include/hw/cholesky.hpp:130" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln130" VISIBLE="true"/>
-            </BindNodes>
         </Module>
         <Module>
             <Name>kernel_cholesky_0</Name>
@@ -891,13 +707,13 @@
                     <EstimatedClockPeriod>6.245</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>131</Best-caseLatency>
-                    <Average-caseLatency>197</Average-caseLatency>
-                    <Worst-caseLatency>227</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>0.917 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>1.379 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>1.589 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>132 ~ 228</PipelineInitiationInterval>
+                    <Best-caseLatency>130</Best-caseLatency>
+                    <Average-caseLatency>130</Average-caseLatency>
+                    <Worst-caseLatency>130</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.910 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.910 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.910 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>131</PipelineInitiationInterval>
                     <PipelineType>no</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfViolations>
@@ -908,13 +724,13 @@
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <DSP>28</DSP>
+                    <DSP>41</DSP>
                     <AVAIL_DSP>220</AVAIL_DSP>
-                    <UTIL_DSP>12</UTIL_DSP>
-                    <FF>5030</FF>
+                    <UTIL_DSP>18</UTIL_DSP>
+                    <FF>5793</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>4</UTIL_FF>
-                    <LUT>6185</LUT>
+                    <UTIL_FF>5</UTIL_FF>
+                    <LUT>6137</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>11</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -1096,26 +912,56 @@
         <Pragma type="pipeline" location="../../../include/hw/back_substitute.hpp:303" status="valid" parentFunction="backsubstitutealt" variable="" isDirective="0" options="II = BackSubstituteTraits::INNER_II"/>
         <Pragma type="pipeline" location="../../../include/hw/back_substitute.hpp:382" status="valid" parentFunction="backsubstitute" variable="" isDirective="0" options=""/>
         <Pragma type="pipeline" location="../../../include/hw/back_substitute.hpp:391" status="valid" parentFunction="backsubstitute" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:27" status="valid" parentFunction="conjx" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:33" status="valid" parentFunction="zero" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:39" status="valid" parentFunction="zero_c" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:45" status="valid" parentFunction="make_cpx" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:54" status="valid" parentFunction="saturate_cast" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:60" status="valid" parentFunction="mul_conj" variable="" isDirective="0" options=""/>
-        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:99" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="off"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:109" status="valid" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A dim=1 complete"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:110" status="valid" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A complete dim=1"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:111" status="valid" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A dim=2 complete"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:114" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow dim=1 complete"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:115" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow complete dim=1"/>
-        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:116" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow dim=2 complete"/>
-        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:122" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
-        <Pragma type="dependence" location="../../../include/hw/cholesky.hpp:131" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow inter false"/>
-        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:136" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
-        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:152" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
-        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:153" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="factor=2"/>
-        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:157" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
-        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:170" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:43" status="valid" parentFunction="conjx" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:48" status="valid" parentFunction="make_cpx" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:53" status="valid" parentFunction="zero_c" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:58" status="valid" parentFunction="saturate_cast" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:65" status="valid" parentFunction="cmul_3mul" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:76" status="valid" parentFunction="rsqrt_fixed" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" location="../../../include/hw/cholesky.hpp:117" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="off"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:128" status="valid" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A cyclic dim=2 factor=TR::P_TILE"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:129" status="valid" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A cyclic dim=1 factor=TR::I_UNROLL"/>
+        <Pragma type="bind_storage" location="../../../include/hw/cholesky.hpp:130" status="warning" parentFunction="cholesky" variable="A" isDirective="0" options="variable=A type=RAM_T2P impl=BRAM">
+            <Msg msg_id="214-322" msg_severity="WARNING" msg_body="Unsuported scalar variable on pragma 'Resource/Bind_Storage', ignore it."/>
+        </Pragma>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:133" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow complete dim=2"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:134" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow block factor=TR::I_UNROLL dim=1"/>
+        <Pragma type="loop_tripcount" location="../../../include/hw/cholesky.hpp:139" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="min=1 max=DIM"/>
+        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:141" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
+        <Pragma type="loop_tripcount" location="../../../include/hw/cholesky.hpp:142" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="min=1 max=DIM"/>
+        <Pragma type="loop_tripcount" location="../../../include/hw/cholesky.hpp:152" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="min=1 max=DIM"/>
+        <Pragma type="dependence" location="../../../include/hw/cholesky.hpp:153" status="valid" parentFunction="cholesky" variable="Llow" isDirective="0" options="variable=Llow inter false"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:157" status="valid" parentFunction="cholesky" variable="Aj" isDirective="0" options="variable=Aj complete"/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:160" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="factor=TR::I_UNROLL"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:167" status="valid" parentFunction="cholesky" variable="acc_r_full" isDirective="0" options="variable=acc_r_full block factor=TR::I_UNROLL"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:168" status="valid" parentFunction="cholesky" variable="acc_i_full" isDirective="0" options="variable=acc_i_full block factor=TR::I_UNROLL"/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:171" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="factor=TR::I_UNROLL"/>
+        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:182" status="warning" parentFunction="cholesky" variable="" isDirective="0" options="II=1">
+            <Msg msg_id="207-5575" msg_severity="WARNING" msg_body="Only for/while/do loop or function body support the pipeline pragma"/>
+        </Pragma>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:185" status="valid" parentFunction="cholesky" variable="b_r" isDirective="0" options="variable=b_r complete"/>
+        <Pragma type="array_partition" location="../../../include/hw/cholesky.hpp:186" status="valid" parentFunction="cholesky" variable="b_i" isDirective="0" options="variable=b_i complete"/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:189" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="dependence" location="../../../include/hw/cholesky.hpp:201" status="warning" parentFunction="cholesky" variable="tile_diag" isDirective="0" options="variable=tile_diag inter false">
+            <Msg msg_id="214-199" msg_severity="WARNING" msg_body="Ignoring dependence pragma on local scalar variable 'tile_diag'."/>
+        </Pragma>
+        <Pragma type="expression_balance" location="../../../include/hw/cholesky.hpp:202" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:205" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:218" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:220" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="dependence" location="../../../include/hw/cholesky.hpp:224" status="warning" parentFunction="cholesky" variable="sumr" isDirective="0" options="variable=sumr inter false">
+            <Msg msg_id="214-199" msg_severity="WARNING" msg_body="Ignoring dependence pragma on local scalar variable 'sumr'."/>
+        </Pragma>
+        <Pragma type="dependence" location="../../../include/hw/cholesky.hpp:225" status="warning" parentFunction="cholesky" variable="sumi" isDirective="0" options="variable=sumi inter false">
+            <Msg msg_id="214-199" msg_severity="WARNING" msg_body="Ignoring dependence pragma on local scalar variable 'sumi'."/>
+        </Pragma>
+        <Pragma type="expression_balance" location="../../../include/hw/cholesky.hpp:226" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:229" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:261" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
+        <Pragma type="unroll" location="../../../include/hw/cholesky.hpp:263" status="valid" parentFunction="cholesky" variable="" isDirective="0" options=""/>
+        <Pragma type="loop_tripcount" location="../../../include/hw/cholesky.hpp:277" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="min=1 max=DIM"/>
+        <Pragma type="pipeline" location="../../../include/hw/cholesky.hpp:279" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="II=1"/>
+        <Pragma type="loop_tripcount" location="../../../include/hw/cholesky.hpp:280" status="valid" parentFunction="cholesky" variable="" isDirective="0" options="min=1 max=DIM"/>
         <Pragma type="dataflow" location="../../../include/hw/cholesky_inverse.hpp:220" status="valid" parentFunction="choleskyinverse" variable="" isDirective="0" options=""/>
         <Pragma type="stream" location="../../../include/hw/cholesky_inverse.hpp:222" status="valid" parentFunction="choleskyinverse" variable="" isDirective="0" options="variable = matrixUStrm depth = 16"/>
         <Pragma type="stream" location="../../../include/hw/cholesky_inverse.hpp:224" status="valid" parentFunction="choleskyinverse" variable="" isDirective="0" options="variable = matrixInverseUStrm depth = 16"/>

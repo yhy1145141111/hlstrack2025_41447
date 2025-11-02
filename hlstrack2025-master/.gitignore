@@ -39,3 +39,17 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+
+# re-include report folders and common report files
+!**/report/
+!**/reports/
+!**/report/**/*.rpt
+!**/report/**/*.log
+!**/report/**/*.xml
+!**/report/**/*.html
+!**/report/**/*.txt
+!**/reports/**/*.rpt
+!**/reports/**/*.log
+!**/reports/**/*.xml
+!**/reports/**/*.html
+!**/reports/**/*.txt
